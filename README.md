@@ -116,5 +116,5 @@ class CurvePainter extends CustomPainter {
 ## iOS development
 I have utilized Cupertino widgets to ensure a seamless and native user on iOS devices. These widgets, such as the date picker, time picker, and bottom sheets, adhere to Apple's design guidelines ([iOS-human-interface](https://developer.apple.com/design/human-interface-guidelines)), providing a familiar and intuitive interface for iOS users.
 
-We are committed to delivering a professional and polished iOS experience within cross-platform applications. For Android development, we adhere [Material Design Version 3](https://m3.material.io/)https://m3.material.io/ specifications.
+We are committed to delivering a professional and polished iOS experience within cross-platform applications. For Android development, we adhere [Material Design Version 3](https://m3.material.io/) specifications.
 
