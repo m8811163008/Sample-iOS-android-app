@@ -1,9 +1,14 @@
 # Sample-iOS-android-app
-Welcome to the Finance Application!
+Welcome to the Sample Application!
 
-The Finance Application is a secure and adaptive mobile application developed using Flutter for both iOS and Android platforms to seamlessly adapt to both iOS and Android platforms. With its layered architecture using bloc, it provides a efficient user experience.
+The Finance Application is a secure and adaptive mobile application developed using Flutter for both iOS and Android platforms to seamlessly adapt to both iOS and Android platforms. With its layered architecture using bloc, it provides an efficient user experience.
 
 We prioritize the security of your financial data. The Finance Application implements industry-standard security measures to protect your sensitive information.
+<p float="left">
+  <img src="assets/android screen/flutter_04.png" alt="date picker android" width="200" />
+     <img src="assets/android screen/flutter_04.png" alt="date picker iOS" width="200" />
+  <img src="assets/gif/line_chart.gif" alt="line chart gif" width="200" />
+</p>
 
 ## Architecture
 The Finance Application follows a layered architecture and feature-driven development approach, allowing for easy expansion and scalability as our team adds new features.
