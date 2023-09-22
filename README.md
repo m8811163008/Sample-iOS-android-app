@@ -14,24 +14,34 @@ We prioritize the security of your financial data. The Finance Application imple
 The Finance Application follows a layered architecture and feature-driven development approach, allowing for easy expansion and scalability as our team adds new features.
 
 At the core, we have the RemoteApi layer, which handles communication with the server using HTTP. Additionally, we have the LocalStorage layer, which utilizes Hive NoSQL database for efficient and fast data storage.
-
+<p float="left">
+  <img src="assets/android%20screens/flutter_01.png" alt="login page" height="400" />
+     <img src="assets/ios%20screens/flutter_01.png" alt="login page sheet" height="400" />
+</p>
 For each feature, we have a repository that acts as a bridge between the UI layer and the data layer. These repositories also include mappers to seamlessly map data models (API and local) to domain models, ensuring consistency across the UI and business logic layers.
 
 On top of the repositories, we have the Component_library layer. This layer contains common widgets such as Scaffolds and TextFields as well as helper methods that adhere to Cupertino and Material Design specifications. We also have a theming model in this package to provide a consistent visual experience.
-
+<p float="left">
+  <img src="assets/android%20screens/flutter_03.png" alt="login page" height="400" />
+     <img src="assets/ios%20screens/flutter_03.png" alt="login page sheet" height="400" />
+</p>
 Besides the Component_library we have features packages like login, register, dashboard and etc. Look at this [application architecture](https://github.com/m8811163008/Quotes#architecture)
 
 ## Security
+
 At the Finance Application, we prioritize the security of your financial data. To enhance the security measures, we have implemented the following features:
 
 Biometric Access: For devices that support biometric capabilities, we have enabled biometric authentication to provide an extra layer of security This ensures that only authorized users can access the application during different lifecycle changes.
-
+<p float="left">
+  <img src="assets/gif/face_id.gif" alt="face id" height="400" />
+  <img src="assets/ios%20screens/flutter_17.png" alt="ios setting" height="400" />
+  <img src="assets/gif/use_keypass.gif" alt="key pass" height="400" />
+</p>
 Secure Data Storage: To protect sensitive data such as sessions and credentials, we utilize secure shared preferences (AES-CBC-128 algorithm for encryption for both keys and values) and HiveCipher. These encryption techniques ensure that your data is stored securely and cannot be easily accessed by unauthorized individuals.
 
 ```dart
 class KeyValueStorage {
   static const _secureKey = 'secure-sample-key';
-
 
   KeyValueStorage(
       {@visibleForTesting HiveInterface? hive,
@@ -41,10 +51,16 @@ class KeyValueStorage {
     // register adaptors
   }
 
-
+  // Opens hive box to store key value in local storage.
+  //
+  // If you need a secure box pass [isSecureBox] argument to true.
+  // [isTemporary] data is used each time you open the application for example
+  // to store the pool data.
   Future<Box<T>> _openBox<T>(String boxKey,
       {required bool isTemporary, required bool isSecureBox}) async {
     List<int>? encryptionKeyUnit8List;
+    // Retrieve encryptedKey from flutter_scure_storage
+    // Keychain used for ios and AES encription used for android devices.
     if (isSecureBox) {
       final encryptedKey = await _secureStorage.read(key: _secureKey);
       if (encryptedKey == null) {
@@ -71,14 +87,21 @@ class KeyValueStorage {
   }
 }
 ```
+<p float="left">
+  <img src="assets/android%20screens/flutter_16.png" alt="android setting" height="400" />
+  <img src="assets/gif/secure_storage.gif" alt="secure storage" height="400" />
+</p>
+
 ## Cutome widgets
 In application development, I strive to deliver a pixel-perfect user interface to honor our talented UI/UX design team and provide a high-fidelity product experience. I developed widgets to achieve this level of precision and attention to detail.
-
+<p float="left">
+  <img src="assets/pie_chart_figma.png" alt="android setting" width="800" />
+</p>
 To create the pie chart, we utilized a custom painter and applied mathematical calculations to draw the arcs accurately. We also incorporated spacing between the segments and added curved designs at the end of each segment, ensuring a visually appealing chart.
+<p float="left">
+  <img src="assets/pie_chart.png" alt="android setting" width="800" />
+</p>
 
-Additionally, a challenge with the shadow effects algorithm when the drawer of scaffolds opens. To overcome this issue and ensure effective shadow effects, we implemented the ImageFiltered widget. This solution resolved the bug now the shadows are displayed seamlessly.
-
-By leveraging custom widgets and implementing innovative solutions, we aim to provide an exceptional user experience within the Finance Application.
 ```dart
 class CurvePainter extends CustomPainter {
 
@@ -118,8 +141,41 @@ class CurvePainter extends CustomPainter {
   }
 }
 ```
+
+Additionally, a challenge with the shadow effects algorithm when the drawer of scaffolds opens. To overcome this issue and ensure effective shadow effects, we implemented the ImageFiltered widget. This solution resolved the bug now the shadows are displayed seamlessly.
+<p float="left">
+  <img src="assets/android%20screens/flutter_02.png" alt="android pie chart" height="400" />
+  <img src="assets/ios%20screens/flutter_02.png" alt="ios pie chart" height="400" />
+</p>
+By leveraging custom widgets and implementing innovative solutions, we aim to provide an exceptional user experience within the Finance Application.
+
 ## iOS development
 I have utilized Cupertino widgets to ensure a seamless and native user on iOS devices. These widgets, such as the date picker, time picker, and bottom sheets, adhere to Apple's design guidelines ([iOS-human-interface](https://developer.apple.com/design/human-interface-guidelines)), providing a familiar and intuitive interface for iOS users.
 
 We are committed to delivering a professional and polished iOS experience within cross-platform applications. For Android development, we adhere [Material Design Version 3](https://m3.material.io/) specifications.
+
+## other screenshots (iOS)
+<p float="left">
+  <img src="assets/ios%20screens/flutter_05.png" alt="" height="400" />
+  <img src="assets/ios%20screens/flutter_07.png" alt="" height="400" />
+  <img src="assets/ios%20screens/flutter_08.png" alt="" height="400" />
+  <img src="assets/ios%20screens/flutter_11.png" alt="" height="400" />
+  <img src="assets/ios%20screens/flutter_13.png" alt="" height="400" />
+  <img src="assets/ios%20screens/flutter_15.png" alt="" height="400" />
+  <img src="assets/ios%20screens/flutter_14.png" alt="" height="400" />
+  <img src="assets/ios%20screens/flutter_18.png" alt="" height="400" />
+</p>
+
+## other screenshots (android)
+<p float="left">
+  <img src="assets/android%20screens/flutter_03.png" alt="" height="400" />
+  <img src="assets/android%20screens/flutter_05.png" alt="" height="400" />
+  <img src="assets/android%20screens/flutter_08.png" alt="" height="400" />
+  <img src="assets/android%20screens/flutter_09.png" alt="" height="400" />
+  <img src="assets/android%20screens/flutter_14.png" alt="" height="400" />
+  <img src="assets/android%20screens/flutter_15.png" alt="" height="400" />
+  <img src="assets/android%20screens/flutter_16.png" alt="" height="400" />
+  <img src="assets/android%20screens/flutter_11.png" alt="" height="400" />
+  <img src="assets/android%20screens/flutter_12.png" alt="" height="400" />
+</p>
 
