@@ -5,9 +5,9 @@ The Finance Application is a secure and adaptive mobile application developed us
 
 We prioritize the security of your financial data. The Finance Application implements industry-standard security measures to protect your sensitive information.
 <p float="left">
-  <img src="assets/android%20screens/flutter_04.png" alt="date picker android" width="200" />
-     <img src="assets/ios%20screens/flutter_04.png" alt="date picker iOS" width="200" />
-  <img src="assets/gif/line_chart.gif" alt="line chart gif" width="200" />
+  <img src="assets/android%20screens/flutter_04.png" alt="date picker android" height="400" />
+     <img src="assets/ios%20screens/flutter_04.png" alt="date picker iOS" height="400" />
+  <img src="assets/gif/line_chart.gif" alt="line chart gif" height="400" />
 </p>
 
 ## Architecture
