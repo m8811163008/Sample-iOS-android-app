@@ -1,4 +1,10 @@
-# Sample-iOS-android-app
+Table of content
+1. [Cryptography iOS-android-app](#cryptography-iOS-android-app)
+2. [An international payment and E-money project](#emoney-project)
+3. [E-commerce and multi-vendors application](#electronic-commerce-multi-vendor)
+4. [Other projects to explore](#other-projects)
+
+# Cryptography-iOS-android-app <a name="cryptography-iOS-android-app"></a>
 Welcome to the Sample Application!
 
 The Finance Application is a secure and adaptive mobile application developed using Flutter for both iOS and Android platforms to seamlessly adapt to both iOS and Android platforms. With its layered architecture using bloc, it provides an efficient user experience.
@@ -179,13 +185,8 @@ We are committed to delivering a professional and polished iOS experience within
   <img src="assets/android%20screens/flutter_12.png" alt="" height="400" />
 </p>
 
-## Some other projects to explore
-Here are some projects that are related.
-* [Demonstration of sockets in Flutter](https://github.com/m8811163008/simple_socket_project/blob/main/web%20socket%20flutter.dart)
-* [A-graph-project-with-TDD-approch](https://github.com/m8811163008/A-graph-project-with-TDD-approch)
-* [A quote project to showcase Flutter proper architecture with Bloc pattern](https://github.com/m8811163008/Quotes)
 
-## Screenshots of an E-money and payment project
+# An international payment and E-money project<a name="emoney-project"></a>
  <p float="left">
   <img src="assets/emoney/flutter_01.png" alt="" height="400" />
   <img src="assets/emoney/flutter_02.png" alt="" height="400" />
@@ -202,7 +203,7 @@ Here are some projects that are related.
   <img src="assets/emoney/flutter_13.png" alt="" height="400" />
   <img src="assets/emoney/flutter_14.png" alt="" height="400" />
 </p>
-## Screenshots of an E-commerce and multi-vendors application
+# Screenshots of an E-commerce and multi-vendors application<a name="electronic-commerce-multi-vendor"></a>
  <p float="left">
   <img src="assets/ishop/flutter_01.png" alt="" height="400" />
   <img src="assets/ishop/flutter_02.png" alt="" height="400" />
@@ -221,3 +222,8 @@ Here are some projects that are related.
   <img src="assets/ishop/flutter_15.png" alt="" height="400" />
   <img src="assets/ishop/flutter_16.png" alt="" height="400" />
 </p>
+# Some other projects to explore<a name="other-projects"></a>
+Here are some projects that are related.
+* [Demonstration of sockets in Flutter](https://github.com/m8811163008/simple_socket_project/blob/main/web%20socket%20flutter.dart)
+* [A-graph-project-with-TDD-approch](https://github.com/m8811163008/A-graph-project-with-TDD-approch)
+* [A quote project to showcase Flutter proper architecture with Bloc pattern](https://github.com/m8811163008/Quotes)
