@@ -179,3 +179,45 @@ We are committed to delivering a professional and polished iOS experience within
   <img src="assets/android%20screens/flutter_12.png" alt="" height="400" />
 </p>
 
+## Some other projects to explore
+Here are some projects that are related.
+* [Demonstration of sockets in Flutter](https://github.com/m8811163008/simple_socket_project/blob/main/web%20socket%20flutter.dart)
+* [A-graph-project-with-TDD-approch](https://github.com/m8811163008/A-graph-project-with-TDD-approch)
+* [A quote project to showcase Flutter proper architecture with Bloc pattern](https://github.com/m8811163008/Quotes)
+
+## Screenshots of an E-money and payment project
+ <p float="left">
+  <img src="assets/emoney/flutter_01.png" alt="" height="400" />
+  <img src="assets/emoney/flutter_02.png" alt="" height="400" />
+  <img src="assets/emoney/flutter_03.png" alt="" height="400" />
+  <img src="assets/emoney/flutter_04.png" alt="" height="400" />
+  <img src="assets/emoney/flutter_05.png" alt="" height="400" />
+  <img src="assets/emoney/flutter_06.png" alt="" height="400" />
+  <img src="assets/emoney/flutter_07.png" alt="" height="400" />
+  <img src="assets/emoney/flutter_08.png" alt="" height="400" />
+  <img src="assets/emoney/flutter_09.png" alt="" height="400" />
+  <img src="assets/emoney/flutter_10.png" alt="" height="400" />
+  <img src="assets/emoney/flutter_11.png" alt="" height="400" />
+  <img src="assets/emoney/flutter_12.png" alt="" height="400" />
+  <img src="assets/emoney/flutter_13.png" alt="" height="400" />
+  <img src="assets/emoney/flutter_14.png" alt="" height="400" />
+</p>
+## Screenshots of an E-commerce and multi-vendors application
+ <p float="left">
+  <img src="assets/ishop/flutter_01.png" alt="" height="400" />
+  <img src="assets/ishop/flutter_02.png" alt="" height="400" />
+  <img src="assets/ishop/flutter_03.png" alt="" height="400" />
+  <img src="assets/ishop/flutter_04.png" alt="" height="400" />
+  <img src="assets/ishop/flutter_05.png" alt="" height="400" />
+  <img src="assets/ishop/flutter_06.png" alt="" height="400" />
+  <img src="assets/ishop/flutter_07.png" alt="" height="400" />
+  <img src="assets/ishop/flutter_08.png" alt="" height="400" />
+  <img src="assets/ishop/flutter_09.png" alt="" height="400" />
+  <img src="assets/ishop/flutter_10.png" alt="" height="400" />
+  <img src="assets/ishop/flutter_11.png" alt="" height="400" />
+  <img src="assets/ishop/flutter_12.png" alt="" height="400" />
+  <img src="assets/ishop/flutter_13.png" alt="" height="400" />
+  <img src="assets/ishop/flutter_14.png" alt="" height="400" />
+  <img src="assets/ishop/flutter_15.png" alt="" height="400" />
+  <img src="assets/ishop/flutter_16.png" alt="" height="400" />
+</p>
