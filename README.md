@@ -224,6 +224,7 @@ We are committed to delivering a professional and polished iOS experience within
 </p>
 # Some other projects to explore<a name="other-projects"></a>
 Here are some projects that are related.
+
 * [Demonstration of sockets in Flutter](https://github.com/m8811163008/simple_socket_project/blob/main/web%20socket%20flutter.dart)
 * [A-graph-project-with-TDD-approch](https://github.com/m8811163008/A-graph-project-with-TDD-approch)
 * [A quote project to showcase Flutter proper architecture with Bloc pattern](https://github.com/m8811163008/Quotes)
